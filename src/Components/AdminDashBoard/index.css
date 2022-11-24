@@ -1,0 +1,102 @@
+.Admin-container{
+background-color: lightblue;
+width: 100vw;
+height: 100vh;
+display: flex;
+ justify-content: center;
+ align-items: flex-start;
+  
+ 
+}
+.side-menu{
+    background-color: beige;
+    height: 98%;
+    width: 20%;
+    border: 2px solid brown;
+    border-bottom-right-radius: 2rem;
+     
+}
+ 
+.top-container{
+    background-color: rgba(255, 68, 0, 0.733);
+    height: 4rem;
+    width: 80vw;
+    display: flex;
+    gap:1rem;
+    align-items: center;
+    justify-content:  flex-end;
+}
+.userInfo{
+    background-color: rgba(240, 233, 230, 0.269);
+    width: 10rem;
+    border-radius: 3rem;
+    display: flex;
+    gap:.5rem;
+    align-items: center;
+    margin-right: 2rem;
+     
+}
+.username{
+    color: white;
+    font-family: poppins Tahoma  sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.Add-employ{
+    background-color: white;
+    padding: 2rem 2rem;
+    height: 50vh;
+    width: 70vw;
+    margin-left: 2rem;
+     
+      
+    border-radius:2rem;
+}
+.employ-details_add-container{
+     display: flex;
+}
+.submit-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.image-details{
+    display: flex;
+    gap: 2rem;
+    height: 80%;
+}
+.list_options{
+list-style-type: none;
+display: flex;
+gap:2rem;
+margin-left: 10rem;
+ 
+ 
+}
+.list_options>li{
+    background-color:  grey;
+    border-radius: 2rem;
+    padding: .5rem 1rem;
+    color: white;
+    cursor: pointer;
+}
+.side-menu-list{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    cursor: pointer;
+    align-items: flex-start;
+}
+input{
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+.logout{
+    background-color: red;
+    color:white;
+    border: none;
+    padding: 8px;
+    border-radius: 2px;
+    margin-right: 2rem;
+}

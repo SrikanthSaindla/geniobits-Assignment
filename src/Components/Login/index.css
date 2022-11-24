@@ -1,0 +1,43 @@
+.Login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:.3rem;
+    position:absolute;
+    height: 100vh;
+    width: 100vw;
+    top:38%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+     
+    font-family: Tahoma;
+   height: 100vh;
+    background-image: linear-gradient( 150deg,#2987e4 50%,#16191e 50%)
+}
+.user-login-btn{
+  display: flex;  
+   gap: .2rem;
+   align-items: flex-start;
+   font-family: "Roboto";
+}
+.user-login-btn>:first-child{
+    border: none;
+    padding: .3rem;
+    background-color:  white;
+    width: 4rem;
+    height: 2rem;
+     font-weight: 500;
+     font-size: 1.1rem;
+     border-radius: 2px;
+}
+.user-login-btn>:nth-child(2) {
+    border: none;
+     padding: .3rem;
+    background-color: white;
+    width: 4rem;
+    height: 2rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    border-radius: 2px;
+}
